@@ -438,7 +438,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1131.0, 248.0, 50.0, 22.0 ],
-									"text" : "127"
+									"text" : "1"
 								}
 
 							}
@@ -522,7 +522,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 979.0, 248.0, 50.0, 22.0 ],
-									"text" : "127"
+									"text" : "1"
 								}
 
 							}
@@ -690,7 +690,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 671.0, 248.0, 50.0, 22.0 ],
-									"text" : "127"
+									"text" : "1"
 								}
 
 							}
@@ -858,7 +858,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 363.0, 248.0, 50.0, 22.0 ],
-									"text" : "127"
+									"text" : "1"
 								}
 
 							}
@@ -942,7 +942,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 211.0, 248.0, 50.0, 22.0 ],
-									"text" : "127"
+									"text" : "1"
 								}
 
 							}
@@ -1026,7 +1026,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 55.0, 248.0, 50.0, 22.0 ],
-									"text" : "127"
+									"text" : "1"
 								}
 
 							}
@@ -5640,6 +5640,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-145",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -5672,7 +5673,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 899.5, 862.569516777992249, 55.0, 23.0 ],
+					"patching_rect" : [ 899.5, 861.088035345077515, 55.0, 23.0 ],
 					"text" : "midiinfo"
 				}
 
@@ -5820,7 +5821,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "<none>",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -5936,7 +5936,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1785.5, 243.0, 74.5, 37.0 ],
+									"patching_rect" : [ 1785.5, 243.0, 75.0, 37.0 ],
 									"text" : "scale -44. 1. 0. 1."
 								}
 
@@ -9619,6 +9619,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
