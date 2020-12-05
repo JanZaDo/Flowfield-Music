@@ -2321,8 +2321,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 514.0, 401.0, 250.0, 23.0 ],
-					"text" : "jit.matrix 3 float32 35 35 @adapt 0 @interp 1"
+					"patching_rect" : [ 514.0, 401.0, 247.0, 23.0 ],
+					"text" : "jit.matrix 3 float32 70 70 @adapt 0 @interp 1"
 				}
 
 			}
@@ -2417,6 +2417,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.250980392156863, 0.835294117647059, 1.0, 1.0 ],
+					"color" : [ 0.215686274509804, 0.666666666666667, 0.866666666666667, 1.0 ],
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2433,7 +2435,7 @@
 						}
 ,
 						"classnamespace" : "jit.gen",
-						"rect" : [ 652.0, 119.0, 600.0, 450.0 ],
+						"rect" : [ 1189.0, 515.0, 311.0, 447.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2462,6 +2464,49 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 156.0, 254.5, 130.0, 33.0 ],
+									"text" : "double size of field to cover canvas size",
+									"textcolor" : [ 0.215686274509804, 0.666666666666667, 0.866666666666667, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.250980392156863, 0.835294117647059, 1.0, 1.0 ],
+									"color" : [ 0.215686274509804, 0.666666666666667, 0.866666666666667, 1.0 ],
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 122.0, 260.0, 23.0, 22.0 ],
+									"text" : "* 2",
+									"textcolor" : [ 0.305882352941176, 0.317647058823529, 0.333333333333333, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.250980392156863, 0.835294117647059, 1.0, 1.0 ],
+									"color" : [ 0.215686274509804, 0.666666666666667, 0.866666666666667, 1.0 ],
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 73.0, 260.0, 23.0, 22.0 ],
+									"text" : "* 2",
+									"textcolor" : [ 0.305882352941176, 0.317647058823529, 0.333333333333333, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-21",
 									"maxclass" : "newobj",
@@ -2656,7 +2701,7 @@
 										"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 									}
 ,
-									"patching_rect" : [ 147.0, 146.0, 77.0, 22.0 ],
+									"patching_rect" : [ 53.0, 141.0, 77.0, 22.0 ],
 									"text" : "gen heading"
 								}
 
@@ -2679,7 +2724,7 @@
 										}
 ,
 										"classnamespace" : "jit.gen",
-										"rect" : [ 59.0, 81.0, 640.0, 480.0 ],
+										"rect" : [ 1293.0, 424.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2865,7 +2910,7 @@
 										"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 									}
 ,
-									"patching_rect" : [ 147.0, 87.0, 105.0, 22.0 ],
+									"patching_rect" : [ 53.0, 82.0, 105.0, 22.0 ],
 									"text" : "gen flowfield_calc"
 								}
 
@@ -2877,7 +2922,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 263.0, 191.0, 116.0, 22.0 ],
+									"patching_rect" : [ 122.0, 187.0, 116.0, 22.0 ],
 									"text" : "param windowRatio"
 								}
 
@@ -2889,7 +2934,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 257.0, 266.0, 29.5, 22.0 ],
+									"patching_rect" : [ 73.0, 230.0, 29.5, 22.0 ],
 									"text" : "*"
 								}
 
@@ -2901,7 +2946,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 305.0, 230.0, 44.0, 22.0 ],
+									"patching_rect" : [ 73.0, 187.0, 44.0, 22.0 ],
 									"text" : "snorm"
 								}
 
@@ -2913,7 +2958,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 310.0, 314.0, 43.0, 22.0 ],
+									"patching_rect" : [ 122.0, 230.0, 43.0, 22.0 ],
 									"text" : "swiz y"
 								}
 
@@ -2925,7 +2970,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 257.0, 314.0, 43.0, 22.0 ],
+									"patching_rect" : [ 73.0, 291.0, 43.0, 22.0 ],
 									"text" : "swiz x"
 								}
 
@@ -2937,7 +2982,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 147.0, 334.0, 59.0, 22.0 ],
+									"patching_rect" : [ 53.0, 329.0, 59.0, 22.0 ],
 									"text" : "vec 0 0 0"
 								}
 
@@ -2949,7 +2994,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 147.0, 37.0, 30.0, 22.0 ],
+									"patching_rect" : [ 53.0, 32.0, 30.0, 22.0 ],
 									"text" : "in 1"
 								}
 
@@ -2960,7 +3005,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 147.0, 404.0, 37.0, 22.0 ],
+									"patching_rect" : [ 53.0, 399.0, 37.0, 22.0 ],
 									"text" : "out 1"
 								}
 
@@ -2968,7 +3013,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -3010,7 +3055,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 2 ],
+									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -3038,12 +3083,32 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 2 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
  ],
-						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
+						"default_bgcolor" : [ 0.211764705882353, 0.219607843137255, 0.231372549019608, 1.0 ],
+						"elementcolor" : [ 0.305882352941176, 0.317647058823529, 0.333333333333333, 1.0 ],
+						"accentcolor" : [ 0.305882352941176, 0.317647058823529, 0.333333333333333, 1.0 ],
+						"patchlinecolor" : [ 0.215686274509804, 0.666666666666667, 0.866666666666667, 1.0 ],
+						"bgcolor" : [ 0.258823529411765, 0.266666666666667, 0.282352941176471, 1.0 ],
+						"editing_bgcolor" : [ 0.305882352941176, 0.317647058823529, 0.333333333333333, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 514.0, 443.0, 99.0, 23.0 ],
-					"text" : "jit.gen drawField"
+					"text" : "jit.gen drawField",
+					"textcolor" : [ 0.305882352941176, 0.317647058823529, 0.333333333333333, 1.0 ]
 				}
 
 			}
@@ -3558,10 +3623,10 @@
 , 			{
 				"name" : "myrPattr",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
-					"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3588,9 +3653,9 @@
 , 			{
 				"name" : "myrSubpatch",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ],
 					"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3626,8 +3691,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3638,7 +3703,7 @@
 		"selectioncolor" : [ 0.215686274509804, 0.666666666666667, 0.866666666666667, 1.0 ],
 		"textcolor" : [ 0.67843137254902, 0.713725490196078, 0.76078431372549, 1.0 ],
 		"textcolor_inverse" : [ 0.67843137254902, 0.713725490196078, 0.76078431372549, 1.0 ],
-		"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+		"bgcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
 		"editing_bgcolor" : [ 0.305882352941176, 0.317647058823529, 0.333333333333333, 1.0 ]
 	}
 
