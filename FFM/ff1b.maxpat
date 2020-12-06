@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1255.0, 208.0, 624.0, 331.0 ],
+		"rect" : [ 959.0, 62.0, 624.0, 331.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -85,7 +85,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 585.0, 145.0, 100.0, 37.0 ],
+					"patching_rect" : [ 662.0, 108.0, 100.0, 37.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 470.0, 29.0, 128.0, 23.0 ],
 					"text" : "bgcolor 0.38 0.38 0.38"
@@ -974,7 +974,7 @@
 										}
 ,
 										"classnamespace" : "jit.gen",
-										"rect" : [ 578.0, 466.0, 651.0, 563.0 ],
+										"rect" : [ 788.0, 647.0, 651.0, 563.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -3645,9 +3645,9 @@
 , 			{
 				"name" : "myrPattr",
 				"default" : 				{
+					"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
 					"fontsize" : [ 12.0 ],
 					"fontname" : [ "Arial" ],
-					"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
 					"fontface" : [ 0 ]
 				}
 ,
@@ -3675,9 +3675,9 @@
 , 			{
 				"name" : "myrSubpatch",
 				"default" : 				{
+					"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
 					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ],
-					"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3713,8 +3713,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
