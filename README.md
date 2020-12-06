@@ -12,8 +12,7 @@
 ## Setup
 ### Ableton Live 10
 
-1. In Live > Preferences > Link Midi, make sure to select the MIDI port you are using under MIDI ports and Track should be on (I am using Max for Live "from Max 1" port)
-![Live preferences](images/LivePreferences.png)  
+1. In Live > Preferences > Link Midi, make sure to select the MIDI port you are using under MIDI ports and Track should be on (I am using Max for Live "from Max 1" port). ![Live preferences](images/LivePreferences.png)  
 2. Download Solid Sounds and Electric Keyboards from the links above. Install the Ableton Packs by going to 'File > Install Pack...'.  ![](images/install-pack.jpg)
 
 3. To install LiveGrabber, go to the Ableton File browser then 'Add Folder...'. ![](images/add-pack-folder.jpg) 
