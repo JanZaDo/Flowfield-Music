@@ -18,7 +18,7 @@
 3. To install LiveGrabber, go to the Ableton File browser then 'Add Folder...'. ![](images/add-pack-folder.jpg) 
 
 **Max for Live**  
-- To install the Max for Live objects we created (receiveOSC, VolumeUp and VolumeDown):  
+- In the Flow-field music folder, there are four Max for live patches: **receiveOSC.amxd, VolumeUp.amxd, VolumeDown.amxd and ssynth.amxd**. These patches need to be installed in the folder allocated to Max for Live devices in order for them to work
 
 - Mac users: Copy files in Max Audio Effect folder, located in /Users/username/Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect
 - Windows users: Follow step 3 - Add the "Flowfield-Music" project folder.
@@ -30,7 +30,7 @@
 ##Project
 
 We started from a Max patch called [The Crowd](https://cycling74.com/tutorials/node-recipe-02-the-crowd) that uses node.js for Max MSP. Crowd uses an agent simulation library to generate complex behaviour. 
-We are using the agents and epicenter location to control sounds. We are sending the epicentre x and y positions and the "togertherness vs loneliness" values of the agents to Live Ableton as midi notes and OSC values.  
+We are using the agents and epicenter location to control sounds. We are sending the epicentre x and y positions, agents' x and y positions and the "togertherness vs solitude" values of the agents to Live Ableton as midi notes and OSC values.  
 The crowd simulation patch has a parameter that measures how close or far apart the agents are to each other depending on their position. We are interested in those values to send to Ableton Live to control the notes on the different midi tracks. 
 
 ***
