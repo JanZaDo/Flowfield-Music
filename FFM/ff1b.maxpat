@@ -41,7 +41,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.250980392156863, 0.835294117647059, 1.0, 1.0 ],
-					"color" : [ 0.305882352941176, 0.317647058823529, 0.333333333333333, 1.0 ],
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -57,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1006.0, 65.0, 589.0, 373.0 ],
+						"rect" : [ 572.0, 355.0, 589.0, 373.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -85,6 +84,7 @@
 						"style" : "",
 						"subpatcher_template" : "<none>",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.250980392156863, 0.835294117647059, 1.0, 1.0 ],
@@ -96,19 +96,6 @@
 									"patching_rect" : [ 376.0, 293.0, 58.0, 23.0 ],
 									"text" : "s velocity",
 									"textcolor" : [ 0.305882352941176, 0.317647058823529, 0.333333333333333, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-54",
-									"maxclass" : "newobj",
-									"numinlets" : 4,
-									"numoutlets" : 0,
-									"patching_rect" : [ 425.0, 19.0, 149.0, 23.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 485.0, 44.0, 128.0, 23.0 ],
-									"text" : "bgcolor 0.38 0.38 0.38"
 								}
 
 							}
@@ -1855,10 +1842,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1885,9 +1872,9 @@
 , 							{
 								"name" : "myrSubpatch",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -3782,17 +3769,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-51" : [ "live.button", "live.button", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
@@ -3837,10 +3813,10 @@
 , 			{
 				"name" : "myrPattr",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
-					"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
 					"fontface" : [ 0 ],
-					"fontsize" : [ 12.0 ]
+					"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3867,9 +3843,9 @@
 , 			{
 				"name" : "myrSubpatch",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-					"fontsize" : [ 12.0 ]
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
