@@ -9,15 +9,15 @@
 	- [Electric Keyboards](https://www.ableton.com/en/packs/electric-keyboards/)
 	- [LiveGrabber](https://www.showsync.com/tools)  
 	 
-# Setup
-## Ableton Live 10
+## Setup
+### Ableton Live 10
 
-1. In Live > Preferences > Link Midi, make sure to select the MIDI port you are using under MIDI ports and Track should be on (I am using Max for Live "from Max 1" port)   ![Live preferences](images/LivePreferences.png)  
+1. In Live > Preferences > Link Midi, make sure to select the MIDI port you are using under MIDI ports and Track should be on (I am using Max for Live "from Max 1" port)        ![Live preferences](images/LivePreferences.png)  
 2. Download Solid Sounds and Electric Keyboards from the links above. Install the Ableton Packs by going to 'File > Install Pack...'.  ![](images/install-pack.jpg)
 
 3. To install LiveGrabber, go to the Ableton File browser then 'Add Folder...'. ![](images/add-pack-folder.jpg) 
 
-## Max for Live  
+### Max for Live  
 - In the Flow-field music folder, there are four Max for live patches: **receiveOSC.amxd, VolumeUp.amxd, VolumeDown.amxd and ssynth.amxd**. These patches need to be installed in the folder allocated to Max for Live devices in order for them to work
 
 - Mac users: Copy files in Max Audio Effect folder, located in /Users/username/Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect
@@ -45,7 +45,6 @@ In step 5 of the max patch is where we select the midi port that is going to be 
 
 ![Select MIDI port](images/chooseMIDIport.png)  
 
-__
 
 ### Send OSC values
 
@@ -88,12 +87,12 @@ We get all OSC values through **udpreceive** and we were having some issues tryi
 We still created two Max patch that receives the OSC values and controls the volume of the track the patch is on.   In this project, we are suing the patches **VolumeDown** and **VolumeUp** in tracks 3, 4, 5, 6, 7
 
 
-##### Volume Down
+#### Volume Down
 
 ![Volume Down](images/VolumeDownPatch.png)  
 
 
-##### Volume Up
+#### Volume Up
 
 ![Volume Up](images/VolumeUp.png)  
 
