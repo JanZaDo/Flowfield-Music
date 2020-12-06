@@ -12,10 +12,13 @@
 ## Setup
 ### Ableton Live 10
 
-1. In Live > Preferences > Link Midi, make sure to select the MIDI port you are using under MIDI ports and Track should be on (I am using Max for Live "from Max 1" port)        ![Live preferences](images/LivePreferences.png)  
+1. In Live > Preferences > Link Midi, make sure to select the MIDI port you are using under MIDI ports and Track should be on (I am using Max for Live "from Max 1" port)
+![Live preferences](images/LivePreferences.png)  
 2. Download Solid Sounds and Electric Keyboards from the links above. Install the Ableton Packs by going to 'File > Install Pack...'.  ![](images/install-pack.jpg)
 
 3. To install LiveGrabber, go to the Ableton File browser then 'Add Folder...'. ![](images/add-pack-folder.jpg) 
+
+
 
 ### Max for Live  
 - In the Flow-field music folder, there are four Max for live patches: **receiveOSC.amxd, VolumeUp.amxd, VolumeDown.amxd and ssynth.amxd**. These patches need to be installed in the folder allocated to Max for Live devices in order for them to work
@@ -23,6 +26,9 @@
 - Mac users: Copy files in Max Audio Effect folder, located in /Users/username/Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect
 - Windows users: Follow step 3 - Add the "Flowfield-Music" project folder.
 ![Max Audio effect](images/MAxAudioEffectFolder.png)  
+
+
+
 
 
 # Project
@@ -53,6 +59,8 @@ We are using Max object udpsend to send OSC values to Live based on the agents' 
 ![OSC values](images/OSCvalues1.png)
 
 ![agents position](images/agentsPosition.png)
+
+
 
 
 
