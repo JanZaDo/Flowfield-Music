@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 216.0, 159.0, 1702.0, 740.0 ],
+		"rect" : [ 316.0, 85.0, 1584.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,6 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "[M] 2",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-93",
@@ -130,7 +129,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -163,7 +162,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "<none>",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.215686274509804, 0.666666666666667, 0.866666666666667, 1.0 ],
@@ -604,7 +602,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -637,7 +635,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "<none>",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.250980392156863, 0.835294117647059, 1.0, 1.0 ],
@@ -825,10 +822,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
 									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -855,9 +852,9 @@
 , 							{
 								"name" : "myrSubpatch",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1051,7 +1048,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1084,7 +1081,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "[M] 2",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-69",
@@ -2589,10 +2585,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
 									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2619,9 +2615,9 @@
 , 							{
 								"name" : "myrSubpatch",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2777,7 +2773,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2810,7 +2806,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -3162,7 +3157,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-72",
-					"items" : [ "AU DLS Synth 1", ",", "[M] MIDI Main", ",", "[M] MIDI Live", ",", "[M] MIDI Sonic Pi", ",", "[M] MIDI Logic", ",", "[M] MIDI Korg", ",", "[M] MIDI Misc", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "Microsoft GS Wavetable Synth", ",", "loopMIDI Port" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3268,7 +3263,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3301,7 +3296,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "<none>",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-42",
@@ -5053,7 +5047,7 @@
 					"presentation_rect" : [ 967.0, 39.0, 243.144143342971802, 28.382252559726965 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-22", "toggle", "int", 1, 5, "obj-27", "number", "int", 256, 5, "obj-34", "flonum", "float", 0.509999990463257, 5, "obj-35", "flonum", "float", 0.449999988079071, 5, "obj-38", "number", "int", 6, 5, "obj-43", "flonum", "float", 0.020999999716878, 5, "obj-48", "flonum", "float", 0.300000011920929, 5, "obj-51", "flonum", "float", 0.819999992847443, 5, "obj-53", "flonum", "float", 0.810000002384186, 5, "obj-13", "multislider", "recall_preset", 500, 256, "obj-13", "multislider", "recall_preset", 0, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -5, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -3, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -5, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -5, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, 254, "obj-13", "multislider", "recall_preset", 251, -6, -6, -6, -6, -6, -4, -6, -6, -6, -6, -6, -6, -6, -5, -6, -6, -6, -6, -6, -6, -6, -4, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -4, -6, -4, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -5, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -4, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -5, -6, -4, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -4, -6, -6, -6, -6, -5, -6, -5, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, 0, -6, -6, -6, -6, -6, -6, -6, -6, -5, -6, -6, -6, -6, -3, -6, -6, -6, -6, -6, -6, -6, -6, -6, -5, -6, -6, -6, -6, -6, -6, -5, -6, -4, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -5, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, -6, 4, "obj-13", "multislider", "recall_preset", 5, "obj-66", "number", "int", 1, 5, "obj-78", "number", "int", 1 ]
+							"data" : [ 5, "obj-22", "toggle", "int", 1, 5, "obj-27", "number", "int", 8, 5, "obj-34", "flonum", "float", 0.0, 5, "obj-35", "flonum", "float", 0.0, 5, "obj-38", "number", "int", 0, 5, "obj-43", "flonum", "float", 0.0, 5, "obj-48", "flonum", "float", 0.0, 5, "obj-51", "flonum", "float", 0.0, 5, "obj-53", "flonum", "float", 0.0, 12, "obj-13", "multislider", "list", 0, 0, 0, 0, 0, 0, 0, 0, 5, "obj-66", "number", "int", 1, 5, "obj-78", "number", "int", 1, 5, "obj-120", "toggle", "int", 1, 5, "obj-72", "umenu", "int", 1, 5, "obj-145", "gswitch2", "int", 1, 11, "obj-83", "swatch", "list", 0.794672193094017, 1.0, 0.700005400925875, 1.0, 0.280739724170417, 1.0, 0.850002700462937, 5, "obj-94", "number", "int", 0 ]
 						}
 , 						{
 							"number" : 2,
@@ -5061,11 +5055,19 @@
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 5, "obj-44", "umenu", "int", 3, 5, "<invalid>", "flonum", "float", 0, 5, "<invalid>", "flonum", "float", 0, 5, "<invalid>", "flonum", "float", 1, 5, "<invalid>", "flonum", "float", 1, 5, "<invalid>", "number", "int", 8, 5, "<invalid>", "number", "int", 4, 5, "<invalid>", "number", "int", 4 ]
+							"data" : [ 5, "obj-22", "toggle", "int", 1, 5, "obj-27", "number", "int", 8, 5, "obj-34", "flonum", "float", 3.299999952316284, 5, "obj-35", "flonum", "float", 27.0, 5, "obj-38", "number", "int", 6, 5, "obj-43", "flonum", "float", 0.5, 5, "obj-48", "flonum", "float", 0.899999976158142, 5, "obj-51", "flonum", "float", 2.0, 5, "obj-53", "flonum", "float", 6.0, 12, "obj-13", "multislider", "list", 6, 1, 6, 6, 6, 6, 5, 6, 5, "obj-66", "number", "int", 1, 5, "obj-78", "number", "int", 1, 5, "obj-120", "toggle", "int", 1, 5, "obj-72", "umenu", "int", 1, 5, "obj-145", "gswitch2", "int", 1, 11, "obj-83", "swatch", "list", 0.794672193094017, 1.0, 0.700005400925875, 1.0, 0.280739724170417, 1.0, 0.850002700462937, 5, "obj-94", "number", "int", 0 ]
 						}
 , 						{
 							"number" : 4,
 							"data" : [ 5, "obj-22", "toggle", "int", 1, 5, "obj-27", "number", "int", 8, 5, "obj-34", "flonum", "float", 2.0, 5, "obj-35", "flonum", "float", 0.100000001490116, 5, "obj-38", "number", "int", 1, 5, "obj-43", "flonum", "float", 0.5, 5, "obj-48", "flonum", "float", 0.100000001490116, 5, "obj-51", "flonum", "float", 0.0, 5, "obj-53", "flonum", "float", 5.0, 12, "obj-13", "multislider", "list", -1, -1, -1, -1, -1, -1, -1, -1, 5, "obj-66", "number", "int", 1, 5, "obj-78", "number", "int", 1, 5, "obj-120", "toggle", "int", 1, 5, "obj-72", "umenu", "int", 1, 5, "obj-145", "gswitch2", "int", 1, 11, "obj-83", "swatch", "list", 0.794672193094017, 1.0, 0.700005400925875, 1.0, 0.280739724170417, 1.0, 0.850002700462937 ]
+						}
+, 						{
+							"number" : 5,
+							"data" : [ 5, "obj-22", "toggle", "int", 1, 5, "obj-27", "number", "int", 8, 5, "obj-34", "flonum", "float", 0.509999990463257, 5, "obj-35", "flonum", "float", 0.449999988079071, 5, "obj-38", "number", "int", 6, 5, "obj-43", "flonum", "float", 0.020999999716878, 5, "obj-48", "flonum", "float", 0.300000011920929, 5, "obj-51", "flonum", "float", 0.819999992847443, 5, "obj-53", "flonum", "float", 0.810000002384186, 12, "obj-13", "multislider", "list", -6, -6, -6, -6, -6, -6, -6, -6, 5, "obj-66", "number", "int", 1, 5, "obj-78", "number", "int", 1, 5, "obj-120", "toggle", "int", 1, 5, "obj-72", "umenu", "int", 1, 5, "obj-145", "gswitch2", "int", 1, 11, "obj-83", "swatch", "list", 0.794672193094017, 1.0, 0.700005400925875, 1.0, 0.280739724170417, 1.0, 0.850002700462937, 5, "obj-94", "number", "int", 0 ]
+						}
+, 						{
+							"number" : 6,
+							"data" : [ 5, "obj-22", "toggle", "int", 1, 5, "obj-27", "number", "int", 8, 5, "obj-34", "flonum", "float", 0.200000002980232, 5, "obj-35", "flonum", "float", 0.5, 5, "obj-38", "number", "int", 2, 5, "obj-43", "flonum", "float", 0.100000001490116, 5, "obj-48", "flonum", "float", 0.100000001490116, 5, "obj-51", "flonum", "float", 0.200000002980232, 5, "obj-53", "flonum", "float", 0.899999976158142, 12, "obj-13", "multislider", "list", -2, -2, -2, 2, 2, -2, -2, -2, 5, "obj-66", "number", "int", 1, 5, "obj-78", "number", "int", 1, 5, "obj-120", "toggle", "int", 1, 5, "obj-72", "umenu", "int", 1, 5, "obj-145", "gswitch2", "int", 1, 11, "obj-83", "swatch", "list", 0.794672193094017, 1.0, 0.700005400925875, 1.0, 0.280739724170417, 1.0, 0.850002700462937, 5, "obj-94", "number", "int", 0 ]
 						}
 , 						{
 							"number" : 7,
@@ -5109,7 +5111,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5142,7 +5144,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "<none>",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"attr" : "mat_specular",
@@ -5505,10 +5506,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
 									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -5535,9 +5536,9 @@
 , 							{
 								"name" : "myrSubpatch",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -5625,7 +5626,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5658,7 +5659,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "<none>",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.250980392156863, 0.835294117647059, 1.0, 1.0 ],
@@ -5999,7 +5999,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6032,7 +6032,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "magfoto-2019",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -6330,7 +6329,7 @@
 					"patching_rect" : [ 363.144144415855408, 369.327268660068512, 233.0, 183.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.630630612373352, 195.581080734729767, 137.0, 107.0 ],
-					"setminmax" : [ -6.0, 6.0 ],
+					"setminmax" : [ 0.0, 0.0 ],
 					"settype" : 0,
 					"size" : 8
 				}
@@ -6658,7 +6657,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "jit_matrix", "bang", "" ],
+					"outlettype" : [ "", "bang", "" ],
 					"patching_rect" : [ 262.927928328514099, 112.459459781646729, 501.0, 23.0 ],
 					"text" : "jit.world sim @size 640 640 @visible 0 @floating 1 @erase_color 0.1 0.1 0.1 @ortho 1 @fsaa 1"
 				}
@@ -6794,6 +6793,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -7639,27 +7640,26 @@
 			"parameterbanks" : 			{
 
 			}
-,
-			"inherited_shortname" : 1
+
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sim-run.js",
-				"bootpath" : "~/Desktop/flow-field-project/Flowfield-Music/FFM",
+				"bootpath" : "D:/janic/Documents/Grad Courses/DIGM5950/Flowfield-Music/FFM",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ff1b.maxpat",
-				"bootpath" : "~/Desktop/flow-field-project/Flowfield-Music/FFM",
+				"bootpath" : "D:/janic/Documents/Grad Courses/DIGM5950/Flowfield-Music/FFM",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.!pass.mxo",
-				"type" : "iLaX"
+				"name" : "jit.!pass.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
@@ -7707,10 +7707,10 @@
 , 			{
 				"name" : "myrPattr",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontface" : [ 0 ],
 					"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-					"fontsize" : [ 12.0 ]
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -7737,9 +7737,9 @@
 , 			{
 				"name" : "myrSubpatch",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-					"fontsize" : [ 12.0 ]
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
