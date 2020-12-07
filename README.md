@@ -1,4 +1,4 @@
-# Flowfield Music
+# Flow Field Music
 ### Requirements  
 - Ableton Live 10 with Max for Live
 - Max MSP
