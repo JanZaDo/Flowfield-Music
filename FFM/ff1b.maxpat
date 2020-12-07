@@ -1988,8 +1988,6 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 759.0, 443.0, 128.0, 32.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 306.5, 33.0, 128.0, 32.0 ],
 					"saturation" : 1.0
 				}
 
