@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "[M] 2",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-93",
@@ -129,7 +130,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -162,6 +163,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "<none>",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.215686274509804, 0.666666666666667, 0.866666666666667, 1.0 ],
@@ -593,7 +595,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -626,6 +628,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "<none>",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.250980392156863, 0.835294117647059, 1.0, 1.0 ],
@@ -813,10 +816,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
 									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -843,9 +846,9 @@
 , 							{
 								"name" : "myrSubpatch",
 								"default" : 								{
-									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
+									"fontsize" : [ 12.0 ],
 									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -881,8 +884,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1039,7 +1042,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1072,6 +1075,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "[M] 2",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-69",
@@ -2576,10 +2580,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
 									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2606,9 +2610,9 @@
 , 							{
 								"name" : "myrSubpatch",
 								"default" : 								{
-									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
+									"fontsize" : [ 12.0 ],
 									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2644,8 +2648,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2764,7 +2768,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2797,6 +2801,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -3253,7 +3258,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3286,6 +3291,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "<none>",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-42",
@@ -5093,7 +5099,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5126,6 +5132,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "<none>",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"attr" : "mat_specular",
@@ -5488,10 +5495,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
 									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5518,9 +5525,9 @@
 , 							{
 								"name" : "myrSubpatch",
 								"default" : 								{
-									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
+									"fontsize" : [ 12.0 ],
 									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5556,8 +5563,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5608,7 +5615,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5641,6 +5648,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "<none>",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.250980392156863, 0.835294117647059, 1.0, 1.0 ],
@@ -5981,7 +5989,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6014,6 +6022,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "magfoto-2019",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -6234,13 +6243,14 @@
 				"box" : 				{
 					"bgcolor" : [ 0.184313725490196, 0.564705882352941, 0.737254901960784, 1.0 ],
 					"id" : "obj-37",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 937.0, 103.200086414813995, 136.0, 21.0 ],
+					"patching_rect" : [ 937.0, 103.200086414813995, 136.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 699.5, 16.0, 277.0, 21.0 ],
-					"text" : "Attraction vs. Avoidance",
+					"text" : "Togetherness vs. Solitude",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -6641,7 +6651,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "" ],
+					"outlettype" : [ "jit_matrix", "bang", "" ],
 					"patching_rect" : [ 262.927928328514099, 112.459459781646729, 501.0, 23.0 ],
 					"text" : "jit.world sim @size 640 640 @visible 0 @floating 1 @erase_color 0.1 0.1 0.1 @ortho 1 @fsaa 1"
 				}
@@ -6779,6 +6789,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -7640,26 +7652,27 @@
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sim-run.js",
-				"bootpath" : "D:/janic/Documents/Grad Courses/DIGM5950/Flowfield-Music/FFM",
+				"bootpath" : "~/Documents/GroupProject/github/Flowfield-Music/FFM",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ff1b.maxpat",
-				"bootpath" : "D:/janic/Documents/Grad Courses/DIGM5950/Flowfield-Music/FFM",
+				"bootpath" : "~/Documents/GroupProject/github/Flowfield-Music/FFM",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.!pass.mxe64",
-				"type" : "mx64"
+				"name" : "jit.!pass.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
@@ -7707,10 +7720,10 @@
 , 			{
 				"name" : "myrPattr",
 				"default" : 				{
-					"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+					"fontsize" : [ 12.0 ],
 					"fontname" : [ "Arial" ],
 					"fontface" : [ 0 ],
-					"fontsize" : [ 12.0 ]
+					"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -7737,9 +7750,9 @@
 , 			{
 				"name" : "myrSubpatch",
 				"default" : 				{
-					"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
+					"fontsize" : [ 12.0 ],
 					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ]
+					"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -7775,8 +7788,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
